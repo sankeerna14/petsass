@@ -1,0 +1,22 @@
+@mixin display($argument){
+  display:$argument;
+
+}
+@mixin cat(){
+  width:350px;
+  height:200px;
+  margin-left:5px;
+  float:left;
+}
+@mixin cc(){
+  margin-left:5px;
+  color:brown;
+}
+@mixin img(){
+  margin-left:35px;
+}
+$width:100%;
+$color:red;
+$float:left;
+$height: 50px;
+$margin-left:90px;
